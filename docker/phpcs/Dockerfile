@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 MAINTAINER Matt Konda <mkonda@jemurai.com>
 # Environment
 RUN apt-get update && apt-get install -y ruby ruby-dev nodejs openjdk-7-jre
