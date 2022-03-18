@@ -1,4 +1,4 @@
-FROM ruby:2.4-alpine
+FROM ruby:2.6.9-alpine
 
 LABEL maintainer="mkonda@jemurai.com"
 LABEL maintainer="omer.levihevroni@owasp.org"
