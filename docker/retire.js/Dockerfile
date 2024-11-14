@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Matt Konda <mkonda@jemurai.com>
 RUN apt-get update && apt-get install -y nodejs npm 
 RUN npm install -g retire
